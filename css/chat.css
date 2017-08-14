@@ -1,0 +1,172 @@
+
+
+.chat-box {
+    font-family: Open Sans;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 19px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 50px auto;
+    margin-bottom: 0;
+  max-width: 350px;
+  height: 594px;
+  position: relative;
+    transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  
+}
+
+.chat-container {
+  position: absolute;
+  padding: 20px;
+  width: 350px;
+  height: 454px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+.chat-container.active {
+  transform: translateX(0);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  opacity: 1;
+}
+
+.chat-container.hidechat {
+  transform: translateX(-10%);
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  opacity: 0;
+}
+
+.chatbox p {
+  margin: 0;
+}
+
+.bubble {
+  float: left;
+  width: auto;
+  max-width: 90%;
+  position: relative;
+  clear: both;
+  padding: 10px 20px;
+  background: #ffffff;
+    color: #333333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  margin-top: 10px;
+  opacity: 0;
+}
+.bubble p {
+    margin-bottom: 0;
+}
+
+.bubble:after {
+  border-radius: 20px / 5px;
+  content: '';
+  display: block;
+  position: absolute;
+  border: 8px solid transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  bottom: 1px;
+  transform: rotateZ(-90deg);
+  left: -15px;
+}
+
+.bubble-alt {
+  float: right;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    margin: 20px 0 10px;
+}
+
+.bubble-alt:after {
+  left: auto;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  transform: rotateZ(90deg);
+  right: -16px;
+}
+
+.chat-control {
+  padding: 1.2em;
+  margin-top: 450px;
+}
+
+.chat-input {
+  width: 100%;
+  border-radius: 10px;
+  border:  1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0.7em;
+}
+
+.chat-input:focus {
+  border: none;
+}
+
+.chat-header {
+  padding: 0.5em;
+  padding-bottom: .7em;
+  text-align: center;
+}
+
+.chat-header span {
+  position: absolute;
+  font-style: regular;
+    font-size: 14px;
+line-height: 20px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.chat-shopping span {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+.chat-night-life span {
+    top: 70px;
+    width: 70px;
+    left: 0;
+    right: 0;
+}
+.chat-food span {
+    right: 15px;
+    top: 70px;
+    
+}
+.user-profile {
+    position: relative;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #ffffff;
+  margin: 0 35px;
+  background-repeat: no-repeat;
+    background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.user-profile:nth-child(1) {
+  background-image: url(../img/shopping-logo.png);
+    margin-left: 0;
+}
+
+.user-profile:nth-child(2) {
+  background-image: url(../img/food-logo.png);
+}
+
+.user-profile:nth-child(3) {
+  background-image: url(../img/night-life-logo.png);
+    margin-right: 0;
+}
+.user-profile.active {
+  opacity: 1;
+}
+.bubble-img {
+    padding:0 ;
+    background: none;
+}
+

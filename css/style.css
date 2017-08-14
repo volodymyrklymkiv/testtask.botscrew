@@ -1,0 +1,209 @@
+body {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+#main {
+    background: url(../img/devilswheel.png) no-repeat left top;
+    background-size: cover;
+    min-height: 628px;
+    height: 100%;
+}
+.header {
+    padding: 20px;
+    height: 10%;
+}
+.text-attractie {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.header a {
+    padding-left: 20px;
+}
+.top-content {
+    margin: 10% 0 20%;
+}
+h1, h2 {
+    line-height: 66px;
+    font-size: 44px;
+    letter-spacing: 0.704px;
+    color: #FFFFFF;
+}
+h2 {
+    font-weight: lighter;
+}
+.top-content p {
+    font-size: 18px;
+    letter-spacing: 0.288px;
+    text-transform: capitalize;
+    color: #2F80ED;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+.get-started-btn {
+    background: #FFFFFF;
+    border-radius: 144px;
+    text-decoration: none;
+    padding: 20px 100px;
+    color: #2F80ED;
+}
+.top-content a {
+    text-decoration: none;
+}
+
+
+
+
+#middle {
+    background-color: #ffffff;
+    min-height: 592px;
+    height: 100%;
+}
+.center-title {
+    margin-top: 5%;
+}
+.center h1 {
+    color:#333333;
+}
+.center h2 {
+   color:#333333; 
+}
+.center-content {
+    margin: 5% 0;
+}
+.center-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.center-block {
+    padding: 0;
+}
+
+
+
+
+
+
+
+#bottom {
+    background: linear-gradient(122.77deg, #2F80ED 0%, #17345C 98.9%);
+    min-height: 1000px;
+    height: 100%;
+}
+.bottom-content {
+    min-height: 750px;
+}
+.bottom-left p {
+    font-weight: 300;
+    line-height: 27px;
+    font-size: 18px;
+    letter-spacing: 0.288px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.bottom-left {
+    margin: 7% 0;
+}
+.bottom-left a {
+    text-decoration: none;
+}
+.bottom-btn {
+    padding-top: 50px;
+}
+.footer {
+    padding-bottom: 50px;;
+    min-height: 258px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+.left-footer-text {
+    margin-top: 5%;
+    height: 258px;
+}
+.left-footer-text ul li {
+    text-align: left;
+}
+.footer-links {
+    margin-top : 5%;
+    height: 258px;
+}
+.copyright {
+    margin-top: 190px;
+}
+.left-footer-text ul {
+    padding-left: 0;
+}
+ul li {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+
+}
+ul li:first-child {
+    margin-top: 0;
+}
+.footer-links a, .copyright a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    h1,h2 {
+    line-height: 50px;
+    font-size: 36px;
+    letter-spacing: 0.704px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    .text-attractie {
+        text-align: left;
+    }
+    h1, h2 {
+        line-height: 40px;
+        font-size: 30px;
+        letter-spacing: 0.704px;
+    }
+    .left-footer-text {
+        visibility: hidden;
+    }
+    .footer-links ul {
+        padding: 0 15px;
+    }
+    ul li {
+        list-style-type: none;
+        font-weight: 200;
+        font-size: 14px;;
+        margin-top: 15%;
+    }
+    .left-links ul li{
+        text-align: left;
+    }
+    .get-started-btn {
+        background: #FFFFFF;
+        border-radius: 144px;
+        text-decoration: none;
+        padding: 15px 75px;
+        color: #2F80ED;
+    }
+    
+}
+
+
+
+
+
+
